@@ -9,34 +9,22 @@ public class Main {
                         70000
                 );
 
-
         ATM atm = new ATM();
 
         atm.insertCard(card);
         atm.enterPin(1234);
-
-
-
         System.out.println(
                 atm.withdraw(5000)
         );
-
-
         System.out.println(
                 atm.withdraw(50)
         );
-
-
         System.out.println(
                 atm.withdraw(20500)
         );
 
         atm.ejectCard();
         atm.reset();
-
-
-
-
 
         Card card2 =
                 new Card(
@@ -47,8 +35,6 @@ public class Main {
         ATM atm2 = new ATM();
 
         atm2.insertCard(card2);
-
-
         atm2.enterPin(1111);
         atm2.enterPin(1111);
         atm2.enterPin(1111);
@@ -56,6 +42,5 @@ public class Main {
         System.out.println(
                 atm2.getState()
         );
-
     }
-     }
+}
