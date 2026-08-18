@@ -1,0 +1,12 @@
+package homework0708;
+
+public enum ATMState {
+
+    IDLE,
+    CARD_INSERTED,
+    PIN_VERIFICATION,
+    AUTHENTICATED,
+    TRANSACTION_IN_PROGRESS,
+    BLOCKED,
+    CARD_EJECTED
+}
