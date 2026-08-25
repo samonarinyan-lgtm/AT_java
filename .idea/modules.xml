@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/AT_java.iml" filepath="$PROJECT_DIR$/AT_java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sadsad/sadsad.iml" filepath="$PROJECT_DIR$/sadsad/sadsad.iml" />
-    </modules>
-  </component>
-</project>
