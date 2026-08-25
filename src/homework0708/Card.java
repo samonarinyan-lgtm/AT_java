@@ -26,18 +26,18 @@ public class Card {
         dailyWithdrawn += amount;
     }
 
+    public String getNumber(){
+        return number;
+    }
     public int getBalance() {
         return balance;
     }
-
     public int getDailyWithdrawn() {
         return dailyWithdrawn;
     }
-
     public AccountStatus getStatus() {
         return status;
     }
-
 
     public void block() {
         status = AccountStatus.BLOCKED;
